@@ -1,0 +1,25 @@
+marti@DESKTOP-5JIV0C1 MINGW64 /c/Users/marti/Dropbox/Coding/Haskell
+$ strace ./Test.exe | grep winpthread
+<command line>: user specified .o/.so/.DLL could not be loaded (addDLL: pthread or dependencies not loaded. (Win32 error 5))
+Whilst trying to load:  (dynamic) pthread
+Additional directories searched:   C://Program Files//Haskell Platform//8.4.3//mingw//bin/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/7.2.0/
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/
+   C:\windows\system32
+--- Process 49244 loaded C:\Program Files\Haskell Platform\8.4.3\mingw\bin\libwinpthread-1.dll at 0000000064940000
