@@ -1,0 +1,107 @@
+marti@DESKTOP-5JIV0C1 MINGW64 /c/Users/marti/Dropbox/Coding/Haskell
+$ strace ./Test.exe
+create_child: C:\Users\marti\Dropbox\Coding\Haskell\Test.exe
+--- Process 24624 created
+--- Process 24624 loaded C:\Windows\System32\ntdll.dll at 00007fff0c850000
+--- Process 24624 loaded C:\Windows\System32\kernel32.dll at 00007fff0a150000
+--- Process 24624 loaded C:\Windows\System32\KernelBase.dll at 00007fff09130000
+--- Process 24624 thread 48296 created
+--- Process 24624 loaded C:\Windows\System32\gdi32.dll at 00007fff0b8f0000
+--- Process 24624 loaded C:\Windows\System32\dbghelp.dll at 00007fff070c0000
+--- Process 24624 loaded C:\Windows\System32\gdi32full.dll at 00007fff09430000
+--- Process 24624 loaded C:\Windows\System32\ucrtbase.dll at 00007fff08d40000
+--- Process 24624 loaded C:\Windows\System32\msvcp_win.dll at 00007fff08c20000
+--- Process 24624 thread 48504 created
+--- Process 24624 loaded C:\Windows\System32\user32.dll at 00007fff09eb0000
+--- Process 24624 loaded C:\Windows\System32\win32u.dll at 00007fff09410000
+--- Process 24624 thread 49440 created
+--- Process 24624 loaded C:\Windows\System32\msvcrt.dll at 00007fff0a0b0000
+--- Process 24624 loaded C:\Windows\System32\psapi.dll at 00007fff0a0a0000
+--- Process 24624 loaded C:\Windows\System32\shell32.dll at 00007fff0a380000
+--- Process 24624 loaded C:\Windows\System32\cfgmgr32.dll at 00007fff08e40000
+--- Process 24624 loaded C:\Windows\System32\SHCore.dll at 00007fff0b7d0000
+--- Process 24624 loaded C:\Windows\System32\rpcrt4.dll at 00007fff0be10000
+--- Process 24624 loaded C:\Windows\System32\combase.dll at 00007fff0b920000
+--- Process 24624 loaded C:\Windows\System32\bcryptprimitives.dll at 00007fff08cc0000
+--- Process 24624 loaded C:\Windows\System32\windows.storage.dll at 00007fff095d0000
+--- Process 24624 loaded C:\Windows\System32\advapi32.dll at 00007fff0c770000
+--- Process 24624 loaded C:\Windows\System32\sechost.dll at 00007fff0bdb0000
+--- Process 24624 loaded C:\Windows\System32\shlwapi.dll at 00007fff0a040000
+--- Process 24624 loaded C:\Windows\System32\kernel.appcore.dll at 00007fff08b60000
+--- Process 24624 loaded C:\Windows\System32\profapi.dll at 00007fff08b90000
+--- Process 24624 loaded C:\Windows\System32\powrprof.dll at 00007fff08bb0000
+--- Process 24624 loaded C:\Windows\System32\fltLib.dll at 00007fff08b80000
+--- Process 24624 loaded C:\Windows\System32\wsock32.dll at 00007ffefadd0000
+--- Process 24624 loaded C:\Windows\System32\winmm.dll at 00007fff02b20000
+--- Process 24624 loaded C:\Windows\System32\ws2_32.dll at 00007fff0b880000
+--- Process 24624 loaded C:\Windows\System32\dbgcore.dll at 00007ffeed9c0000
+--- Process 24624 loaded C:\Windows\System32\winmmbase.dll at 00007fff02af0000
+--- Process 24624 loaded C:\Windows\System32\winmmbase.dll at 0000000000150000
+--- Process 24624 unloaded DLL at 0000000000150000
+--- Process 24624 loaded C:\Windows\System32\winmmbase.dll at 0000000000150000
+--- Process 24624 unloaded DLL at 0000000000150000
+--- Process 24624 loaded C:\Windows\System32\imm32.dll at 00007fff09ce0000
+--- Process 24624 thread 40380 created
+--- Process 24624 thread 16664 created
+--- Process 10260 created
+--- Process 10260 loaded C:\Windows\System32\ntdll.dll at 00007fff0c850000
+--- Process 10260 loaded C:\Windows\System32\kernel32.dll at 00007fff0a150000
+--- Process 10260 loaded C:\Windows\System32\KernelBase.dll at 00007fff09130000
+--- Process 10260 loaded C:\Windows\System32\msvcrt.dll at 00007fff0a0b0000
+--- Process 10260 thread 53728 created
+--- Process 10260 loaded C:\Windows\System32\user32.dll at 00007fff09eb0000
+--- Process 10260 loaded C:\Windows\System32\win32u.dll at 00007fff09410000
+--- Process 10260 loaded C:\Windows\System32\gdi32.dll at 00007fff0b8f0000
+--- Process 10260 loaded C:\Windows\System32\gdi32full.dll at 00007fff09430000
+--- Process 10260 loaded C:\Windows\System32\msvcp_win.dll at 00007fff08c20000
+--- Process 10260 loaded C:\Windows\System32\ucrtbase.dll at 00007fff08d40000
+--- Process 10260 thread 32232 created
+--- Process 10260 thread 42564 created
+--- Process 10260 loaded C:\Windows\System32\imm32.dll at 00007fff09ce0000
+--- Process 54956 created
+--- Process 54956 loaded C:\Windows\System32\ntdll.dl<command line>: user specified .o/.so/.DLL could not be loaded (addDLL: pthread or dependencies not loaded. (Win32 error 5))
+Whilst trying to load:  (dynamic) pthread
+Additional directories searched:   C://Program Files//Haskell Platform//8.4.3//mingw//bin/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0x86_64-w64-mingw32/7.2.0/
+   C://Program Files//Haskell Platform//8.4.3//mingw//bin/../libexec/gcc/x86_64-w64-mingw32/7.2.0
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/../lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../x86_64-w64-mingw32/7.2.0/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../lib/
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/x86_64-w64-mingw32/7.2.0/
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/../lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/lib/
+   C:/Program Files/Haskell Platform/8.4.3/mingw/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../
+   C:/building/msys64/mingw64/x86_64-w64-mingw32/lib/
+   C:\windows\system32
+l at 00007fff0c850000
+--- Process 54956 loaded C:\Windows\System32\kernel32.dll at 00007fff0a150000
+--- Process 54956 loaded C:\Windows\System32\KernelBase.dll at 00007fff09130000
+--- Process 54956 loaded C:\Windows\System32\msvcrt.dll at 00007fff0a0b0000
+--- Process 54956 thread 50656 created
+--- Process 54956 thread 52952 created
+--- Process 54956 loaded C:\Program Files\Haskell Platform\8.4.3\mingw\bin\libwinpthread-1.dll at 0000000064940000
+--- Process 54956 thread 13264 created
+--- Process 54956 thread 50656 exited with status 0x0
+--- Process 54956 thread 13264 exited with status 0x0
+--- Process 54956 thread 52952 exited with status 0x0
+--- Process 54956 exited with status 0x0
+--- Process 10260 thread 42564 exited with status 0x0
+--- Process 10260 thread 53728 exited with status 0x0
+--- Process 10260 thread 32232 exited with status 0x0
+--- Process 10260 exited with status 0x0
+--- Process 24624 thread 8584 created
+--- Process 24624 thread 8584 exited with status 0x0
+--- Process 24624 thread 16664 exited with status 0x0
+--- Process 24624 thread 40380 exited with status 0x1
+--- Process 24624 thread 48296 exited with status 0x1
+--- Process 24624 thread 49440 exited with status 0x1
+--- Process 24624 thread 48504 exited with status 0x1
+--- Process 24624 exited with status 0x1
